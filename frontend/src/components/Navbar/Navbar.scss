@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.9rem;
+  color: #a9d6ca;
+  background-image: linear-gradient(
+    to right,
+    #112b1b,
+    #0f2c1f,
+    #0e2c22,
+    #0d2d25,
+    #0d2d28,
+    #0d2e2a,
+    #0e2e2d,
+    #0f2f2f,
+    #0f3032,
+    #103136,
+    #123239,
+    #14333c
+  );
+  border-bottom: 2px solid white;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: transparent;
+  }
+}

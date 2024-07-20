@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "pt sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100svh;
+  background-image: linear-gradient(to right top, #001d21, #002021, #00231f, #00261b, #032816, #022817, #022819, #01281a, #002621, #002325, #052026, #0e1d24);
+  color: var(--text-1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "oswald", "pt sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+// =======================================================================
+//                             colors
+// =======================================================================
+:root {
+  --text-1: #1fd1ab;
+  --text-2: #c8fceb;
+  --text-3: #00b5aa;
+  --text-4: #017d8e;
+  --bg-1: #1c2a34;
+  --bg-2: #25395f;
+  --bg-3: #217e78;
+}
